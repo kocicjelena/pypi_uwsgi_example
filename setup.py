@@ -5,7 +5,7 @@ from io import open
 from setuptools import setup
 from distutils.core import setup, Extension
 
-files = [""]
+files = ["pypiuwsgiexample"]
 setup(name='pypiuwsgiexample',
       packages=['pypiuwsgiexample'],
 	  package_dir={'pypiuwsgiexample': 'pypiuwsgiexample'},
@@ -17,8 +17,8 @@ setup(name='pypiuwsgiexample',
 	  url='https://github.com/kocicjelena/py/',
 	  scripts = ["runner"],
 	  install_requires=[
-        'uwsgi',
-		'Flask',
+               'uwsgi',
+		'Flask'>=0.10',
         'Flask-Script'
     ]
 	)
