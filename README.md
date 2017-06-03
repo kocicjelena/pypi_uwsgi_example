@@ -1,0 +1,2 @@
+# pypi_uwsgi_example
+pypi_uwsgi_example
