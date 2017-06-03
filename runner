@@ -1,0 +1,3 @@
+#import pypiuwsgiexample.module
+
+pypiuwsgiexample.module.app().run
