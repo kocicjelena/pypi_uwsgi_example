@@ -17,8 +17,7 @@ setup(name='pypiuwsgiexample',
 	  url='https://github.com/kocicjelena/py/',
 	  scripts = ["runner"],
 	  install_requires=[
-               'uwsgi',
-		'Flask'>=0.10',
-        'Flask-Script'
+               'uWSGI',
+	       'Flask'
     ]
 	)
