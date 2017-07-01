@@ -9,6 +9,7 @@ files = ["pypiuwsgiexample"]
 setup(name='pypiuwsgiexample',
       packages=['pypiuwsgiexample'],
 	  package_dir={'pypiuwsgiexample': 'pypiuwsgiexample'},
+      py_modules=['pypiuwsgiexample.module'],
       version='1.0',
       description='uwsgi example',
       author='Jelena',
